@@ -37,7 +37,7 @@ rm -f %buildroot%appdir/Archive/Messages/*po
 rm -rf %buildroot%appdir/Archive/tests
 chmod 644 %buildroot%appdir/*/*.xml
 
-for gmo in %buildroot%_libdir/apps/*/Messages/*.gmo;do
+for gmo in %buildroot%appdir/*/Messages/*.gmo;do
 echo "%lang($(basename $gmo|sed s/.gmo//)) $(echo $gmo|sed s!%buildroot!!)" >> %name.lang
 done
 
