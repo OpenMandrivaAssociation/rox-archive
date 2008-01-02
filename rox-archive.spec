@@ -11,6 +11,7 @@ Source0: http://prdownloads.sourceforge.net/sourceforge/rox/%{oname}-%{version}.
 License: GPL
 Group: Graphical desktop/Other
 URL: http://rox.sf.net/archive.html
+BuildRoot: %{_tmppath}/%{name}-buildroot
 Requires: rox-lib
 Buildarch: noarch
 
