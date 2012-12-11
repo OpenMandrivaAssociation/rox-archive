@@ -55,3 +55,56 @@ rm -rf $RPM_BUILD_ROOT
 %appdir/Archive/Archive.xml
 %dir %appdir/Archive/Messages
 
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 2.1-4mdv2010.0
++ Revision: 433355
+- rebuild
+
+* Wed Jul 23 2008 Thierry Vignaud <tvignaud@mandriva.com> 2.1-3mdv2009.0
++ Revision: 242550
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Tue May 29 2007 GÃ¶tz Waschk <waschk@mandriva.org> 2.1-1mdv2008.0
++ Revision: 32404
+- build fix
+
+
+* Sun May 28 2006 Götz Waschk <waschk@mandriva.org> 2.1-1mdv2007.0
+- fix file list
+- New release 2.1
+- use mkrel
+
+* Fri Aug 26 2005 Götz Waschk <waschk@mandriva.org> 2.0-1mdk
+- fix installation path
+- fix source URL
+- new version
+
+* Mon Apr 18 2005 Götz Waschk <waschk@linux-mandrake.com> 1.9.5-1mdk
+- update file list
+- new version
+
+* Fri Apr 01 2005 Götz Waschk <waschk@linux-mandrake.com> 1.9.4-2mdk
+- rebuild
+
+* Sun Mar 07 2004 Götz Waschk <waschk@linux-mandrake.com> 1.9.4-1mdk
+- add translation files
+- new version
+
+* Wed Aug 20 2003 Götz Waschk <waschk@linux-mandrake.com> 1.9.3-1mdk
+- drop prefix
+- new version
+
+* Tue Jul 08 2003 Götz Waschk <waschk@linux-mandrake.com> 1.9.2-2mdk
+- fix directory ownership
+
+* Fri Jun 20 2003 Götz Waschk <waschk@linux-mandrake.com> 1.9.2-1mdk
+- put the documentation only in the appdir
+- URL
+- new version
+
