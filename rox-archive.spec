@@ -1,7 +1,7 @@
 %define name rox-archive
 %define oname archive
 %define version 2.1
-%define release %mkrel 4
+%define release 5
 %define appdir %_prefix/lib/apps
 Summary: Create and read archive files with the ROX desktop
 Name: %{name}
